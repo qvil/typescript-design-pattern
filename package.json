@@ -1,0 +1,15 @@
+{
+  "name": "typescript-design-pattern",
+  "version": "1.0.0",
+  "description": "Design pattern with Typescript",
+  "main": "index.js",
+  "repository": "https://github.com/qvil/typescript-design-pattern.git",
+  "author": "qvil <qvil1127@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "dependencies": {
+    "tsc-watch": "^1.0.21"
+  }
+}
