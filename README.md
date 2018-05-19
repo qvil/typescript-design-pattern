@@ -40,6 +40,53 @@ npm start
 
 ## Factory Method
 
+FactoryMethod.ts
+
+```ts
+interface Hero {
+  sayHi(): void;
+}
+
+interface Factory {
+  createHero(name: string): Hero;
+}
+
+class Ironman implements Hero {
+  sayHi(): void {
+    console.log(`I'm Ironman., from Earth.`);
+  }
+}
+
+class Thor implements Hero {
+  sayHi(): void {
+    console.log(`I'm Thor, from Asgard.`);
+  }
+}
+
+export default class HeroFactory implements Factory {
+  createHero(name) {
+    switch (name) {
+      case "ironman":
+        return new Ironman();
+      case "thor":
+        return new Thor();
+      default:
+        return undefined;
+    }
+  }
+}
+```
+
+test.ts
+
+```ts
+import HeroFactory from "./FactoryMethod";
+
+const heroFactory = new HeroFactory();
+const hero = heroFactory.createHero("ironman");
+hero.sayHi(); // I'm Ironman., from Earth.
+```
+
 ## Singleton
 
 Singleton.ts
