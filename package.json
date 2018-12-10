@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "start:abstract-factory": "tsc-watch --onSuccess \"node dist/index.js\"",
     "test": "jest --watch"
   },
   "dependencies": {

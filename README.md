@@ -29,6 +29,10 @@ npm install
 npm start
 ```
 
+## Reference
+
+https://sourcemaking.com/design_patterns
+
 ## Abstract Factory
 
 ## Factory Method
