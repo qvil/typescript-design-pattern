@@ -2,27 +2,20 @@
 
 Design pattern with Typescript
 
-## Table Of Content
+## Table Of Contents
 
-<!-- TOC -->
-
-* [Typescript Design Pattern](#typescript-design-pattern)
-  * [Table Of Content](#table-of-content)
-  * [Install](#install)
-  * [Run](#run)
-  * [Abstract Factory](#abstract-factory)
-  * [Factory Method](#factory-method)
-  * [Singleton](#singleton)
-  * [Adapter](#adapter)
-  * [Composite](#composite)
-  * [Decorator](#decorator)
-  * [Proxy](#proxy)
-  * [Command](#command)
-  * [Observer](#observer)
-  * [Strategy](#strategy)
-  * [Template Method](#template-method)
-
-<!-- /TOC -->
+- [ ] [Abstract Factory](#abstract-factory)
+- [x] [Factory Method](#factory-method)
+- [x] [Singleton](#singleton)
+- [ ] [Adapter](#adapter)
+- [ ] [Composite](#composite)
+- [ ] [Decorator](#decorator)
+- [ ] [Proxy](#proxy)
+- [ ] [Command](#command)
+- [ ] [Observer](#observer)
+- [ ] [Strategy](#strategy)
+- [ ] [Template Method](#template-method)
+- [ ] [Closure](#closure)
 
 ## Install
 
@@ -89,7 +82,7 @@ hero.sayHi(); // I'm Ironman., from Earth.
 
 ## Singleton
 
-Singleton.ts
+[Singleton.ts](src/singleton.ts)
 
 ```ts
 export default class Singleton {
@@ -142,3 +135,5 @@ console.log(singleton.getText, singleton2.getText); // I'm second. I'm second.
 ## Strategy
 
 ## Template Method
+
+## [Closure](src/closure/README.md)

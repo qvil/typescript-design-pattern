@@ -57,6 +57,8 @@ class MakeCounter {
 
 > Private method 는 그냥 class 쓰면 되는데 굳이 사용하는 이유는 뭘까?
 
+> > 자문자답: 클로저는 스코프 문제로 사용하는 경우가 있음. 클로저를 사용하지 않으면 자바스크립트 변수가 var로 선언되거나 function이 파일 전체에서 중복되는 문제가 생겨서 이를 방지하기 위해서 클로저를 사용함.
+
 참고
 
 - https://medium.com/engineering-livestream/javascript-classes-vs-closures-cf6d6c1473f
